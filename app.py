@@ -251,4 +251,4 @@ def update_output_div(date, hour, proy):
 if __name__ == "__main__":
     # dash.exceptions.ObsoleteAttributeException: app.run_server has been replaced by app.run
     # app.run_server(debug=True)
-    app.run(debug=True)
+    app.run(host="0.0.0.0", debug=True)
